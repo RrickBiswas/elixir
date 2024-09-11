@@ -47,4 +47,4 @@ docker run -d --env-file ~/elixir/validator.env --name elixir --platform linux/a
 echo "Checking if the Elixir node is running..."
 docker container ls
 
-echo "To view logs, use: docker logs -f [CONTAINER_ID]"
+echo "To view logs, use: docker logs -f CONTAINER_ID"
